@@ -54,7 +54,7 @@ class App
     @books.push(book)
     puts 'Book created successfully '
     menu_option
- end
+  end
 
   def create_person
     print "\n Do you want to create a student (1) or a teacher (2)? [Input the number]:"
