@@ -109,7 +109,7 @@ class App
 
   def list_persons
     list_all_people
-    puts 'Preaa Enter to continue'
+    puts 'Please Enter to continue'
     gets.chomp
     menu_option
   end
@@ -156,7 +156,7 @@ class App
       rents.Person.id == userid
     end
     if rent.empty?
-      puts 'No rentsl found for this person ID'
+      puts 'No rentals found for this person ID'
     else
       rent.each do |item|
         puts "Date: #{item.date} Book: \"#{item.book.title}\" by #{item.book.author}"
