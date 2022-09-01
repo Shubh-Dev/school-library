@@ -1,7 +1,7 @@
 require_relative './app'
 
 def main
-  newapp = App.new
-  newapp.menu_run
+  app = App.new
+  app.menu_option
 end
 main
