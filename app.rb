@@ -52,7 +52,7 @@ def create_book(books)
   puts 'Book created successfully'
 end
 
-def create_rental(books, people, _rentals)
+def create_rental(books, people, rentals)
   puts 'Select a book from the following list by number'
   books.map.with_index { |book, index| puts "#{index}) Title: '#{book.title}', Author: #{book.author}" }
   selected_book = gets.chomp.to_i
