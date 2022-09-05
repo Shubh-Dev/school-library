@@ -44,6 +44,7 @@ class App
     name = get_input('name')
     age = get_input('age')
     case selected_person
+      
     when 1
       print 'Has parent permission? [Y/N]: '
       provided_permission = gets.chomp.capitalize
