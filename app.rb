@@ -16,8 +16,14 @@ class App
     gets.chomp
   end
 
+   # Chech if array is empty
+   def is_empty(array)
+    false if array.empty?
+    true
+  end
+
   def list_all_books
-    if @books.empty?
+    if is_empty(@books)?
       puts 'There are no books in the library'
     else
       @books.each { |book| puts "Title: '#{book.title}', Author: #{book.author}" }
