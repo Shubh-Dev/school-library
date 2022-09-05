@@ -10,7 +10,8 @@ end
 
 def main_list
   puts 'Welcome to school Library'
-  puts 'What do you want to do?'
+  puts ' '
+  puts 'Please choose an option by entering a number:'
   puts '1 - List all books'
   puts '2 - List all people'
   puts '3 - Create a person'
@@ -36,7 +37,7 @@ def options(books, people, rentals)
     when 5
       create_rental(books, people, rentals)
     when 6
-      list_all_rentals_by_id(rentals)
+      list_rentals_id(rentals)
     else
       break
     end

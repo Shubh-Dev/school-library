@@ -2,7 +2,12 @@ require_relative './book'
 require_relative './rental'
 require_relative './student'
 require_relative './teacher'
-# require_relative './main'
+
+class App
+  @books = []
+  @rentals = []
+  @people = []
+end
 
 def list_all_books(books)
   if books.empty?
@@ -70,7 +75,7 @@ def create_rental(books, people, rentals)
   puts 'Rental created successfully'
 end
 
-def list_all_rentals_by_id(rentals)
+def list_rentals_id(rentals)
   print 'ID of person:'
   person_id = gets.chomp.to_i
   puts 'Rentals:'
