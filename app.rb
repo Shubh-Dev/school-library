@@ -10,6 +10,12 @@ class App
     @people = []
   end
 
+  # Get user input
+  def get_input(text)
+    print "#{text} : "
+    gets.chomp
+  end
+
   def list_all_books
     if @books.empty?
       puts 'There are no books in the library'
@@ -29,10 +35,8 @@ class App
   def create_person
     puts 'Do you want to create a student (1) or a teacher (2)? [Input the number]:'
     selected_person = gets.chomp.to_i
-    print 'name: '
-    name = gets.chomp.to_s
-    print 'age: '
-    age = gets.chomp.to_i
+    name = get_input('name')
+    age = get_input('age')
     case selected_person
     when 1
       print 'Has parent permission? [Y/N]: '
@@ -50,10 +54,8 @@ class App
   end
 
   def create_book
-    print 'Title: '
-    title = gets.chomp
-    print 'Author: '
-    author = gets.chomp
+    title = get_input('Title')
+    author = get_input('Author')
     @books.push(Book.new(title, author))
     puts 'Book created successfully'
   end
