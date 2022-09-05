@@ -80,7 +80,7 @@ class App
     print 'ID of person:'
     person_id = gets.chomp.to_i
     puts 'Rentals:'
-    (@rentals.select { |rental| rental.person.id == person_id }).each do |rental| 
+    (@rentals.select { |rental| rental.person.id == person_id }).each do |rental|
       puts "Date: #{rental.date}, Book: #{rental.book.title} by #{rental.book.author}"
     end
   end
