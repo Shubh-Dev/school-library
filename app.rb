@@ -16,20 +16,19 @@ class App
     gets.chomp
   end
 
-   # Chech if array is empty
-   def is_empty(array)
-      if array.empty?
-        false
-      else
-        true
-      end
+  # Chech if array is empty
+  def empty?(array)
+    if array.empty?
+      false
+    else
+      true
     end
-
+  end
 
   def list_all_books
-     is_empty(@books)?
-      puts  { 'There are no books in the library' } 
-    :
+    if @books.empty?
+      puts 'There are no books in the library'
+    else
       @books.each { |book| puts "Title: '#{book.title}', Author: #{book.author}" }
     end
   end
@@ -48,7 +47,7 @@ class App
     name = get_input('name')
     age = get_input('age')
     case selected_person
-      
+
     when 1
       print 'Has parent permission? [Y/N]: '
       provided_permission = gets.chomp.capitalize
