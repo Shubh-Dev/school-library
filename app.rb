@@ -96,4 +96,5 @@ class App
     (@rentals.select { |rental| rental.person.id == person_id }).each do |rental|
       puts "Date: #{rental.date}, Book: #{rental.book.title} by #{rental.book.author}"
     end
+  end
 end
