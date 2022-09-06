@@ -18,14 +18,18 @@ class App
 
    # Chech if array is empty
    def is_empty(array)
-    false if array.empty?
-    true
-  end
+      if array.empty?
+        false
+      else
+        true
+      end
+    end
+
 
   def list_all_books
-    if is_empty(@books)?
-      puts 'There are no books in the library'
-    else
+     is_empty(@books)?
+      puts  { 'There are no books in the library' } 
+    :
       @books.each { |book| puts "Title: '#{book.title}', Author: #{book.author}" }
     end
   end
@@ -92,5 +96,4 @@ class App
     (@rentals.select { |rental| rental.person.id == person_id }).each do |rental|
       puts "Date: #{rental.date}, Book: #{rental.book.title} by #{rental.book.author}"
     end
-  end
 end
