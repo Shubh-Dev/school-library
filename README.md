@@ -33,6 +33,13 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/Bruktesh)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/bruk-teshome-ab4325226)
 
+
+👤 **MICHAEL MUNAVU**
+
+- GitHub: [@githubhandle](https://github.com/MICHAELMUNAVU83)
+- Twitter: [@twitterhandle](https://twitter.com/MunavuMichael)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/michael-munavu-78703a218/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
