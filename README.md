@@ -20,12 +20,25 @@ To get a local copy up and running follow these simple example steps.
  cd school-library
 ```
 
-## Author
+## Authors
 
 👤 **Shubh M**
 
 - GitHub: [@Shubh-Dev](https://github.com/Shubh-Dev) 
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/shubhscb/)
+
+👤 **Bruk Teshome**
+
+- GitHub: [@githubhandle](https://github.com/bruk19)
+- Twitter: [@twitterhandle](https://twitter.com/Bruktesh)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/bruk-teshome-ab4325226)
+
+
+👤 **MICHAEL MUNAVU**
+
+- GitHub: [@githubhandle](https://github.com/MICHAELMUNAVU83)
+- Twitter: [@twitterhandle](https://twitter.com/MunavuMichael)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/michael-munavu-78703a218/)
 
 ## 🤝 Contributing
 
